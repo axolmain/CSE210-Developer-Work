@@ -96,10 +96,6 @@ namespace Unit04.Game.Directing
                     actor.SetPosition(new Point(random.Next(0, cols), 0).Scale(_videoService.GetCellSize()));
 
                 }
-                else
-                {
-                    actor.MoveNext(maxX, maxY);
-                }
             } 
             banner.SetText(score.ToString());
         }

@@ -23,8 +23,8 @@ namespace Unit04
         private static int ROWS = 40;
         private static string CAPTION = "Greed";
         private static Color WHITE = new Color(255, 255, 255);
-        private static int DEFAULT_ARTIFACTS = 30;
-        private static int DEFAULT_GEMS = 10;
+        private static int DEFAULT_ARTIFACTS = 35;
+        private static int DEFAULT_GEMS = 5;
 
 
         /// <summary>
