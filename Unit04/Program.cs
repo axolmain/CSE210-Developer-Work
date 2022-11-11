@@ -23,8 +23,8 @@ namespace Unit04
         private static int ROWS = 40;
         private static string CAPTION = "Greed";
         private static Color WHITE = new Color(255, 255, 255);
-        private static int DEFAULT_ARTIFACTS = 35;
-        private static int DEFAULT_GEMS = 5;
+        private static int DEFAULT_ARTIFACTS = 30;
+        private static int DEFAULT_GEMS = 10;
 
 
         /// <summary>
@@ -56,7 +56,7 @@ namespace Unit04
             // create the artifacts
             Random random = new Random();
             // for ( decalre's i; when i < artifact #; executed while true basically
-            for (int i = 0; i < DEFAULT_ARTIFACTS; i++)
+            for (int i = 0; i < DEFAULT_GEMS; i++)
             {
                 string text = "*";
 
@@ -77,7 +77,7 @@ namespace Unit04
                 artifact.SetPosition(position);
                 cast.AddActor("artifacts", artifact);
             }
-            for (int i = 0; i < DEFAULT_GEMS; i++)
+            for (int i = 0; i < DEFAULT_ARTIFACTS; i++)
             {
                 string text = "O";
 
